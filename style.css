@@ -1,0 +1,495 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(Assests/img.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.box {
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    opacity: .50;
+    position: absolute;
+    top: 0;
+}
+
+.nav img {
+    width: 104px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+
+}
+
+.flex button {
+    margin: 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.logo {
+    color: red;
+    font-size: 44px;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 10;
+}
+
+.flex select {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 4px 25px;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.hero>:first-child {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.hero> :nth-child(2) {
+    font-size: 25px;
+    margin-bottom: 28px;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+.hero input {
+    width: 20vw;
+    height: 59px;
+    background-color: rgba(0, 0, 0, 0.616);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    font-size: 15px;
+    padding-right: 44px;
+    cursor: text;
+}
+
+.hero button {
+    background-color: rgb(224, 14, 14);
+    padding: 11px 11px 18px 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 00;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.hero button img {
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parti {
+    height: 7px;
+    background-color: gray;
+
+}
+
+.text {
+    color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 103px;
+    gap: 33px;
+    padding-bottom: 70px;
+}
+
+.text .a {
+    font-size: 51px;
+    padding-bottom: 25px;
+    font-weight: 1000;
+
+}
+
+.c,
+.b {
+    font-size: 22px;
+}
+
+.img {
+    position: relative;
+}
+
+.img img {
+    width: 500px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.img video {
+    position: absolute;
+    width: 400px;
+    top: 59px;
+    right: 39px;
+
+}
+
+.parti1 {
+    height: 8px;
+    background-color: rgb(56, 55, 55);
+
+}
+
+.image img {
+    width: 500px;
+}
+
+.image video {
+    position: absolute;
+    top: 44px;
+    left: 82px;
+    width: 320px;
+}
+
+.img2 img {
+    width: 300px;
+}
+
+.sec3 {
+    padding-bottom: 40px;
+}
+
+.img3 img {
+    width: 570px;
+}
+
+
+.text .a1 {
+    padding-bottom: 0;
+}
+
+
+.mini .img {
+    width: 50px;
+
+}
+
+.mini {
+    border: 2px solid gray;
+    position: absolute;
+    z-index: 2;
+    padding: 12px;
+    left: 20px;
+    bottom: 32px;
+    padding-right: 200px;
+    background-color: rgba(0, 0, 0, 0.986);
+    border-radius: 10px;
+}
+
+.s {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    z-index: 10;
+    position: absolute;
+    bottom: 51px;
+    left: 83px;
+}
+
+.down {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(48, 105, 230);
+    font-size: 13px;
+    position: absolute;
+    left: 83px;
+    bottom: 31px;
+}
+
+.img .downicon {
+    position: absolute;
+    z-index: 10;
+    width: 40px;
+    left: 220px;
+    bottom: 35px;
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+    padding-top: 64px;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.faqbox {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    transition: all 1s cubic-bezier(0.26, 0.01, 0.61, 0.98);
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.faqbox .plus {
+    font-size: 33px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.faqbox:hover {
+    background-color: #5f5c5c;
+}
+
+.footeritem {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+
+}
+
+a {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: small;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 43px;
+    padding-bottom: 33px;
+}
+
+.end1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    font-size: 18px;
+}
+
+.contact {
+    color: rgba(255, 255, 255, 0.719);
+    max-width: 70vw;
+    margin: auto;
+    padding-top: 63px;
+    font-size: 14px;
+}
+
+.bottom {
+    max-width: 70vw;
+    margin: auto;
+}
+
+.end {
+    max-width: 70vw;
+    margin: auto;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.712);
+    padding-top: 33px;
+    margin-bottom: 330px;
+}
+
+.partiend {
+    margin-top: 33px;
+}
+
+
+
+@media screen and (max-width:1000px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero>:first-child {
+        font-size: 42px;
+
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero button {
+        background-color: rgb(224, 14, 14);
+        padding: 5px 5px 10px 5px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .hero input {
+        width: 70vw;
+        margin-bottom: 20px;
+        height: 45px;
+
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .img img {
+        width: 350px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .img video {
+        width: 270px;
+        position: absolute;
+        top: 52px;
+        right: 34px;
+    }
+
+    .text .a {
+        font-size: 40px;
+    }
+
+    .b,
+    .c {
+        font-size: 18px;
+    }
+
+    .img2 img {
+        width: 350px;
+    }
+
+    .image img {
+        width: 280px;
+    }
+
+    .image video {
+        width: 180px;
+        position: absolute;
+        top: 20px;
+        left: 52px;
+    }
+
+    .img3 img {
+        width: 375px;
+    }
+
+    .mini {
+        padding-right: 245px;
+    }
+
+    .img .downicon {
+        left: 263px;
+    }
+
+    .end1 {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .footer {
+        column-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 43px;
+
+    }
+}
+
+
+@media screen and (min-width:2200px) {
+    .hero>:first-child {
+        font-size: 100px;
+
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 40px;
+
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 40px;
+    }
+    
+
+    .text .a {
+        font-size: 80px;
+    }
+
+    .b,
+    .c {
+        font-size: 40px;
+    }
+
+}
